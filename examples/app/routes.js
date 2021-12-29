@@ -31,13 +31,14 @@ module.exports.setup = (app) => {
    *         type: string
    */
 
+  // 对标签的一些说明
   /**
    * @swagger
    * tags:
    *   name: Users
    *   description: User management and login
    */
-
+  // 对标签的一些说明
   /**
    * @swagger
    * tags:

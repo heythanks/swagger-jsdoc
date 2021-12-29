@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "test:lint": "eslint .",
     "test:js": "jest --verbose",
-    "test": "run-p test:* -cn"
+    "test": "run-p test:* -cn",
+    "start:ui": "node examples/app/test.js"
   },
   "main": "index.js",
   "bin": {
@@ -21,6 +22,7 @@
     "doctrine": "3.0.0",
     "glob": "7.1.6",
     "swagger-parser": "10.0.2",
+    "swagger-ui-express": "^4.3.0",
     "yaml": "2.0.0-1"
   },
   "devDependencies": {
